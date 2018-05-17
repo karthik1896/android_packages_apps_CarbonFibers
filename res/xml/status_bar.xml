@@ -125,4 +125,10 @@
        android:summary="@string/data_disabled_icon_summary"
        android:defaultValue="true"/>
 
+    <com.android.settings.carbon.preferences.SystemSettingSwitchPreference
+        android:key="qs_running_services_toggle"
+        android:title="@string/qs_running_services_title"
+        android:summary="@string/qs_running_services_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
